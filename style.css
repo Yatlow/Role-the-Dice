@@ -1,0 +1,121 @@
+html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(#d3b58f,#f2eecc);   
+}
+div{
+    box-sizing: border-box;
+}
+#Btn{
+    background-image: linear-gradient(#6793ad,#a3e7e7);
+    width: 25%;
+    height: 15vh;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: 37.5%;
+    border-radius: 20px;
+    border: #274a69 2px solid;
+    margin-top: 4%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Btn:hover{
+    transform: scale(1.1);
+}
+.DiceBox{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 10%;
+}
+.Dice{
+    height: 20vh;
+    width: 20vh;
+    background-image: linear-gradient(#fc2f18,#d61803,#8a1002);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #d3b58f;
+    text-shadow: 2px 2px 5px #000000, -2px -2px 5px #000000;
+    text-decoration: ou;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    div{
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+}
+.V2 :nth-child(1){
+    translate: 10%;
+}
+.V2 :nth-child(2){
+    translate: -10%;
+}
+.V3 :nth-child(1){
+    translate: 10% 10%;
+}
+.V3 :nth-child(2){
+    translate: -10% 10%;
+}
+.V3 :nth-child(3){
+    translate: 0 -10%;
+}
+.V4 :nth-child(1){
+    translate: 10% 10%;
+}
+.V4 :nth-child(2){
+    translate: -10% 10%;
+}
+.V4 :nth-child(3){
+    translate: 10% -10%;
+}
+.V4 :nth-child(4){
+    translate: -10% -10%;
+}
+.V5 :nth-child(1){
+    translate: 10% 10%;
+}
+.V5 :nth-child(2){
+    translate: -10% 10%;
+}
+.V5 :nth-child(3){
+    translate: 10% -10%;
+}
+.V5 :nth-child(4){
+    translate: -10% -10%;
+}
+.V5 :nth-child(5){
+    translate: 0 -150%;
+}
+.V6 div{
+    height: 30%;
+}
+.V6 :nth-child(1){
+    translate: 10% 30%;
+}
+.V6 :nth-child(2){
+    translate: -10% 30%;
+}
+.V6 :nth-child(3){
+    translate: 10% 0;
+}
+.V6 :nth-child(4){
+    translate: -10% 0;
+}
+.V6 :nth-child(5){
+    translate: 10% -30%;
+}
+.V6 :nth-child(6){
+    translate: -10% -30%;
+}
+
+
