@@ -39,7 +39,8 @@ div{
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    /* font-size: 80px; */
+    font-size: 10vw;
     color: #d3b58f;
     text-shadow: 2px 2px 5px #000000, -2px -2px 5px #000000;
     text-decoration: ou;
